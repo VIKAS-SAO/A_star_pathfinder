@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding :0px;
+    overflow: hidden;
+
+}
+body{
+    background-color:rgb(111, 162, 255);
+}
+ 
+ 
+ 
+.top{
+    background:linear-gradient(rgb(18, 46, 97) ,rgb(50, 52, 211));
+    width:100vw;
+    height:15vh; 
+    display: flex;
+    justify-content: space-around;
+} 
+#canvas{ 
+     position: absolute; 
+     top:20%;
+     left:50%;
+      transform: translate(-50% , 0%);
+       border:1px black solid;
+       box-shadow: 5px 0px  100px 5px black;
+       background-color: black; 
+ }
+ 
+.footer{
+    position: fixed;
+    text-align: center;
+    width:100%;
+    background-color: rgb(39, 39, 117);
+    color:rgb(12, 54, 192);
+    bottom: 0px;
+
+}
